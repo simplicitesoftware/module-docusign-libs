@@ -40,6 +40,6 @@ mvn dependency:copy-dependencies -DoutputDirectory=./lib
 Build the ZIP:
 
 ```bash
-rm -f ../../Script/scr_file/0/17/docusign.zip
-zip -r ../../Script/scr_file/0/17/docusign.zip lib/
+rm -f ../../resources/zip/docusign.zip
+zip -r ../../resources/zip/docusign.zip lib/
 ```

@@ -10,7 +10,7 @@ rm -rf lib
 mvn dependency:copy-dependencies -DoutputDirectory=./lib
 
 echo "Building ZIP in module Script directory..."
-rm -f ../../Script/scr_file/0/17/docusign.zip
-zip -r ../../Script/scr_file/0/17/docusign.zip lib/
+rm -f ../../resources/zip/docusign.zip
+zip -r ../../resources/zip/docusign.zip lib/
 
 echo "Done. Check the result and commit/push the module to GitHub."
