@@ -15,6 +15,8 @@
 /**.bak
 /**/Thumbs.db
 /**/.DS_Store
+/others/docusign/lib
+/others/docusign/dependencies.txt
 
 # -- Eclipse --
 #/.classpath
