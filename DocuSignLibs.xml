@@ -59,7 +59,7 @@ Or to import this module from github:
 	<action>upsert</action>
 	<data>
 		<scr_code>docusign</scr_code>
-		<scr_file>Script/scr_file/0/17/docusign.zip</scr_file>
+		<scr_file>resources/zip/docusign.zip</scr_file>
 		<scr_type>EXJ</scr_type>
 		<row_module_id.mdl_name>DocuSignLibs</row_module_id.mdl_name>
 	</data>
