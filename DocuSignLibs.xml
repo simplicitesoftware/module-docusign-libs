@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simplicite elements="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.simplicite.fr/base" xsi:schemaLocation="http://www.simplicite.fr/base https://www.simplicite.io/resources/schemas/base.xsd">
+<object>
+	<name>Module</name>
+	<action>upsert</action>
+	<data>
+		<mdl_name>DocuSignLibs</mdl_name>
+		<mdl_version>0.1</mdl_version>
+		<mdl_prefix/>
+		<mdl_url><![CDATA[{
+    "maven": {
+        "eslint": true,
+        "stylelint": true,
+        "jshint": true,
+        "checkstyle": true,
+        "repositoryUrl": "public"
+    },
+    "origin": {"uri": "https://github.com/simplicitesoftware/module-docusign-libs.git"},
+    "type": "git",
+    "branch": "v7",
+    "export": {
+        "format": "xml",
+        "exploded": false
+    }
+}]]></mdl_url>
+		<mdl_type>X</mdl_type>
+		<mdl_comment><![CDATA[Introduction
+------------
+
+This module contains the DocuSign &copy; SDK:
+
+- with all JAR dependencies in a single zipped external shared-script
+- it is required during the signature process of **Legal document** feature
+
+See shared script `docusign`.
+
+Import
+------
+
+To import this module:
+
+- Create a module named `DocuSignLibs`
+- Set the settings as:
+
+```json
+{
+	"type": "git",
+	"branch": "v7",
+	"origin": { "uri": "https://github.com/simplicitesoftware/module-docusign-libs.git" }
+}
+```
+
+- Click on the _Import module_ button]]></mdl_comment>
+	</data>
+</object>
+<object>
+	<name>Script</name>
+	<action>upsert</action>
+	<data>
+		<scr_code>docusign</scr_code>
+		<scr_file>Script/scr_file/0/17/docusign.zip</scr_file>
+		<scr_type>EXJ</scr_type>
+		<row_module_id.mdl_name>DocuSignLibs</row_module_id.mdl_name>
+	</data>
+</object>
+</simplicite>

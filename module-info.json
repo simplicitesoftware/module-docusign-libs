@@ -1,0 +1,10 @@
+{
+    "date": "2026-07-23 15:27:07",
+    "name": "DocuSignLibs",
+    "format": "xml",
+    "files": ["DocuSignLibs.xml"],
+    "repository": {"origin": {"uri": "https://github.com/simplicitesoftware/module-docusign-libs.git"}},
+    "version": "0.1",
+    "branch": "v7",
+    "platform": "7.0.0-alpha"
+}
