@@ -7,14 +7,16 @@ Introduction
 This module contains the DocuSign &copy; SDK:
 
 - with all JAR dependencies in a single zipped external shared-script
-- it is required during the signature process of **Legal document** feature
+- it is required during the signature process of the feature **Legal document**
 
-See shared script `docusign`.
+See shared script named `docusign`.
 
 Import
 ------
 
-To import this module:
+The easiest way is to download the module thru the Simplicite AppStore in your application.
+
+Or to import this module from github:
 
 - Create a module named `DocuSignLibs`
 - Set the settings as:
@@ -22,7 +24,6 @@ To import this module:
 ```json
 {
 	"type": "git",
-	"branch": "v7",
 	"origin": { "uri": "https://github.com/simplicitesoftware/module-docusign-libs.git" }
 }
 ```
